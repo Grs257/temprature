@@ -1,0 +1,65 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ 
+    body{
+        background-image: url("beautiful-dark-fluffy-cloudy-sky-sun-rays-crescent-moon-sunset-background-generous-ramadan-new-prayer-time-156102289.jpeg");
+        background-size: cover;
+
+    }
+    .container {
+        width: 100%;
+        height: 100vh;
+         border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: darkorange;
+    }
+
+    .container h1 {
+        color: rgb(22, 163, 142);
+        font-weight: 700;
+        font-size: 75px;
+        text-align: center;
+        font-family: cursive;
+    }
+
+    .converter-row {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+        border-radius: 10px;
+        padding: 50px 20px;
+        background-color: rgb(122, 160, 95);
+    }
+
+    .col {
+        flex-basis: 32%;
+        text-align: center;
+    }
+
+    .col label {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .col input {
+        width: 150px;
+        height: 30px;
+        background: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .converter-row h3{
+        font-family: cursive;
+        display: flex;
+        
+    }
