@@ -1,4 +1,4 @@
-<src>
+ 
 	let celsius = document.getElementById('celsius');
 	let fahrenheit = document.getElementById('fahrenheit');
 	let kelvin = document.getElementById('kelvin');
@@ -25,4 +25,4 @@
 
 		let c = (parseFloat(kelvin.value) - 273.15);
 		celsius.value = parseFloat(c.toFixed(2));
-</src>
+ 
